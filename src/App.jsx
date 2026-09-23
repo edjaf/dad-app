@@ -96,7 +96,7 @@ export default function App() {
   const mosaicTiles = Array.from({ length: 28 }, (_, i) => i < 18); 
 
   return (
-    <div className="flex flex-col lg:flex-row h-screen bg-alabaster text-charcoal font-lato overflow-hidden">
+    <div className="flex flex-col lg:flex-row bg-alabaster text-charcoal font-lato overflow-hidden">
       
       {/* LEFT WING: The Open Courtyard */}
       <div className="w-2/3 flex flex-col p-10 overflow-y-auto custom-scrollbar">
@@ -108,7 +108,7 @@ export default function App() {
         </header>
 
         {/* Throughput Metrics */}
-        <div className="grid grid-cols-2 gap-6 mb-10 animate-in delay-100">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10 animate-in delay-100">
           <div className="bg-white p-6 rounded-2xl border border-plaster transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-[0_12px_30px_-4px_rgba(59,91,120,0.1)]">
             <h3 className="text-charcoal/50 text-xs uppercase mb-2 font-bold tracking-wider">1% Better</h3>
             <div className="flex flex-wrap gap-1 mt-3">
