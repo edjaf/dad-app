@@ -96,7 +96,7 @@ export default function App() {
   const mosaicTiles = Array.from({ length: 28 }, (_, i) => i < 18); 
 
   return (
-    <div className="flex h-screen bg-alabaster text-charcoal font-lato overflow-hidden">
+    <div className="flex flex-col lg:flex-row h-screen bg-alabaster text-charcoal font-lato overflow-hidden">
       
       {/* LEFT WING: The Open Courtyard */}
       <div className="w-2/3 flex flex-col p-10 overflow-y-auto custom-scrollbar">
